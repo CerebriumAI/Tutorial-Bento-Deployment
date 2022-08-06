@@ -20,4 +20,4 @@ spec:
             cpu: "1"
         ports:
         - containerPort: 3000
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
